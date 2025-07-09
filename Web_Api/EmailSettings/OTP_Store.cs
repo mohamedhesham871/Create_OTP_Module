@@ -24,7 +24,6 @@ namespace Web_Api.EmailSettings
 
         }
 
-
         public  bool VerifyOTP(string email, string inputOtp)
         {
             // Validate input

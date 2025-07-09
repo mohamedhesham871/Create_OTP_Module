@@ -47,7 +47,7 @@ namespace Web_Api.EmailSettings
             // D) Configure the SMTP client
             using var SMTP = new SmtpClient(host: "smtp.gmail.com", port: 587);
             SMTP.EnableSsl = true;
-            SMTP.Credentials = new NetworkCredential(userName: "mmmelkady23@gmail.com", "uldfwhrklyxiitzy");
+            SMTP.Credentials = new NetworkCredential(userName: "mmmelkady23@gmail.com", "Password");
             // E) Send the email
             try
             {
